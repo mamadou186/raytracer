@@ -1,3 +1,4 @@
 resultat.ppm
 frames/*
 __pycache__/*
+.DS_Store
