@@ -26,6 +26,7 @@ Le ray tracer gère :
 
 ## Architecture du projet
 
+```bash
 ray-tracer/
 │
 ├── main.py # Point d’entrée du programme (menu, orchestration)
@@ -41,7 +42,7 @@ ray-tracer/
 ├── frames/ # Images PPM générées pour l’animation
 ├── resultat.ppm # Image PPM finale (rendu statique)
 └── README.md
-
+```
 
 ---
 
