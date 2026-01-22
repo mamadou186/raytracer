@@ -1,7 +1,3 @@
-# -----------------------------
-# SOL + MURS (sphères géantes)
-# -----------------------------
-
 # SOL gris clair, réfléchissant (plane y = -1)
 SPHERE 0 -5001 0 5000 200 200 200 500 0.5
 
@@ -14,16 +10,10 @@ SPHERE -10006 0 0 10000 255 180 180 -1 0.0
 # MUR DROIT bleu turquoise (plane x = +6) non réfléchissant
 SPHERE 10006 0 0 10000 64 224 208 -1 0.0
 
-
-# -----------------------------
-# 4 SPHERES
-# -----------------------------
-
 # SPHERE ROUGE centrale (un peu "ancrée" dans le sol)
-# Sol y=-1, rayon=0.8 => si centre y=-0.25, bas = -1.05 (légèrement dans le sol)
 SPHERE 0 -1 6 0.8 255 0 0 500 0.2
 
-# VERTE (derrière la rouge, légèrement décalée pour rester visible)
+# VERTE (derrière la rouge)
 SPHERE 0 -0.3 7.6 0.7 0 255 0 200 0.2
 
 # JAUNE (droite)
@@ -32,10 +22,7 @@ SPHERE 2.2 -0.3 6 0.7 255 255 0 200 0.2
 # BLEUE (gauche)
 SPHERE -2.2 -0.3 6 0.7 0 128 255 200 0.2
 
-
-# -----------------------------
 # LUMIERES
-# -----------------------------
 LIGHT ambient 0.2 0 0 0
 LIGHT point 0.6 2 2 0
 LIGHT directional 0.2 1 4 4
